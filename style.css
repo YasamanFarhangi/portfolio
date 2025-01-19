@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does not work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.header{
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding: 4rem;
+  background-color: rgb(170, 178, 255);
+}
+
+img {
+  height: 21rem;
+  border-radius: 0.9rem;
+  padding-top: 1rem;
+}
+
+.container{
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 42rem);
+  column-gap: 3rem;
+  row-gap: 5rem;
+}
+
+.card{
+  border-radius: 0.9rem;
+  box-shadow: 0 1.2rem 2.4rem rgba(110, 109, 109, 0.5);
+}
+
+.card-header{
+  justify-self: center;
+}
+
+.card-content{
+  display: grid;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+
+h3{
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn{
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: rgb(170, 178, 255);
+  border-radius: 0.9rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.btn:hover{
+  background-color: rgba(115, 126, 198);
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.tags{
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+/* .html-tag{
+  background-color: rgba(246, 16, 103, 0.5);
+}
+
+.css-tag{
+  background-color: rgba(94, 35, 157, 0.5);
+}
+
+.js-tag{
+  background-color: rgba(0, 240, 181, 0.5);
+} */
+
+.html-tag{
+  background-color: rgba(132, 255, 201, 0.3);
+}
+
+.css-tag{
+  background-color: rgba(170, 178, 255, 0.3);
+}
+
+.js-tag{
+  background-color: rgba(236, 160, 255, 0.3);
+}
