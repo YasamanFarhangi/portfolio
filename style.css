@@ -142,3 +142,7 @@ h3 {
 .js-tag {
   background-color: rgba(236, 160, 255, 0.3);
 }
+
+.react-tag {
+  background-color: rgba(72, 202, 228, 0.3);
+}
